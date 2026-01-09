@@ -4,6 +4,11 @@ Capgemini Progress Record
 
 ## Work Updates
 
+### 09-01-2026
+- Solved basic questions
+- enums
+
+
 ### 08-01-2026
 - Solved Questions on String
 - Revised concepts of String [String pool,String Buffer,String Tokenizer]
