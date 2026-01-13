@@ -4,6 +4,10 @@ Capgemini Progress Record
 
 ## Work Updates
 
+### 13-01-2026
+- Solved GFG Questions
+
+
 ### 09-01-2026
 - Solved basic questions
 - enums
