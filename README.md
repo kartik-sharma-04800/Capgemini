@@ -4,6 +4,12 @@ Capgemini Progress Record
 
 ## Work Updates
 
+## 21-01-2026
+- Questions on Class, Object and Sequency Diagram
+
+## 20-01-2026
+- Questions on Encapsulation,Polymorphism,Interface
+
 ## 19-01-2026
 - Questions based on inheritance
 
