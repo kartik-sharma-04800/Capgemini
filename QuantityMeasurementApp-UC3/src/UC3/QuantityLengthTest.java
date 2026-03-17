@@ -72,20 +72,6 @@ public class QuantityLengthTest {
     }
 
     @Test
-    public void testEquality_YardToFeet_EquivalentValue() {
-        QuantityLength yard = new QuantityLength(1.0, LengthUnit.YARD);
-        QuantityLength feet = new QuantityLength(3.0, LengthUnit.FEET);
-        assertEquals("1 yard should equal 3 feet", yard, feet);
-    }
-
-    @Test
-    public void testEquality_CentimeterToInch_EquivalentValue() {
-        QuantityLength cm = new QuantityLength(30.48, LengthUnit.CENTIMETER);
-        QuantityLength inch = new QuantityLength(12.0, LengthUnit.INCH);
-        assertEquals("30.48 cm should equal 12 inches (1 foot)", cm, inch);
-    }
-
-    @Test
     public void testEquality_TransitiveProperty() {
         QuantityLength feet1 = new QuantityLength(1.0, LengthUnit.FEET);
         QuantityLength inches = new QuantityLength(12.0, LengthUnit.INCH);

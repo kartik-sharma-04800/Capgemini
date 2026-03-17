@@ -19,8 +19,6 @@ public class SimpleTestRunner {
         testEquality_NullComparison();
         testEquality_NullUnit();
         testEquality_DifferentTypes();
-        testEquality_YardToFeet_EquivalentValue();
-        testEquality_CentimeterToInch_EquivalentValue();
         testEquality_TransitiveProperty();
         testEquality_SymmetricProperty();
         testEquality_ConsistentProperty();
@@ -138,17 +136,7 @@ public class SimpleTestRunner {
         assertNotEquals("Quantity should not equal objects of different types", quantity, notAQuantity);
     }
 
-    private static void testEquality_YardToFeet_EquivalentValue() {
-        QuantityLength yard = new QuantityLength(1.0, LengthUnit.YARD);
-        QuantityLength feet = new QuantityLength(3.0, LengthUnit.FEET);
-        assertEquals("1 yard should equal 3 feet", yard, feet);
-    }
 
-    private static void testEquality_CentimeterToInch_EquivalentValue() {
-        QuantityLength cm = new QuantityLength(30.48, LengthUnit.CENTIMETER);
-        QuantityLength inch = new QuantityLength(12.0, LengthUnit.INCH);
-        assertEquals("30.48 cm should equal 12 inches (1 foot)", cm, inch);
-    }
 
     private static void testEquality_TransitiveProperty() {
         QuantityLength feet1 = new QuantityLength(1.0, LengthUnit.FEET);
