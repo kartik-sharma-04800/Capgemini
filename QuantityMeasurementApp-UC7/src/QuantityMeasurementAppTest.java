@@ -2,7 +2,7 @@ class Test {
     public static void main(String[] args) {
         System.out.println("Testing conversions...");
         
-        // UC5 Conversion Tests
+
         assert QuantityLength.convert(1.0, LengthUnit.FEET, LengthUnit.INCHES) == 12.0;
         assert QuantityLength.convert(24.0, LengthUnit.INCHES, LengthUnit.FEET) == 2.0;
         assert QuantityLength.convert(1.0, LengthUnit.YARDS, LengthUnit.INCHES) == 36.0;
@@ -26,7 +26,7 @@ class Test {
         
         System.out.println("Testing addition operations...");
         
-        // UC6 Addition Tests
+
         testAddition_SameUnit_FeetPlusFeet();
         testAddition_SameUnit_InchPlusInch();
         testAddition_CrossUnit_FeetPlusInches();
